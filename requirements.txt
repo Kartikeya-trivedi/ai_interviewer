@@ -1,0 +1,13 @@
+# Core dependencies for AI Interviewer System
+# Cross-platform compatibility
+platform-detection>=1.0.0
+
+# CLI interface
+click>=8.1.0
+
+# Configuration management
+pyyaml>=6.0
+
+# AI/NLP capabilities (optional, can be added later)
+# openai>=1.0.0
+# anthropic>=0.7.0

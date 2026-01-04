@@ -1,0 +1,19 @@
+# Default configuration for AI Interviewer System
+
+# Interview settings
+interview:
+  max_questions: 10
+  timeout_seconds: 300
+  
+# Platform settings
+platform:
+  windows:
+    enabled: true
+  linux:
+    enabled: true
+    
+# Output settings
+output:
+  format: "json"
+  save_responses: true
+  output_directory: "interviews"
