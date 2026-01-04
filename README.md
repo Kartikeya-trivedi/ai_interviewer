@@ -57,7 +57,7 @@ pip install -r requirements.txt
 Run the application in demo mode:
 
 ```bash
-python main.py --demo
+python -m src.main --demo
 ```
 
 ### Check Platform Information
@@ -65,7 +65,7 @@ python main.py --demo
 To verify your platform is supported:
 
 ```bash
-python main.py --info
+python -m src.main --info
 ```
 
 ### Help
@@ -73,7 +73,7 @@ python main.py --info
 For all available options:
 
 ```bash
-python main.py --help
+python -m src.main --help
 ```
 
 ## Project Structure
@@ -82,12 +82,16 @@ python main.py --help
 ai_interviewer/
 ├── src/                    # Source code
 │   ├── __init__.py
-│   └── interviewer.py     # Core interviewer logic
+│   ├── interviewer.py     # Core interviewer logic
+│   └── main.py            # Application entry point
 ├── tests/                 # Test files
+│   ├── __init__.py
+│   └── test_interviewer.py
 ├── docs/                  # Documentation
-├── main.py               # Application entry point
+│   └── DOCUMENTATION.md
 ├── config.yaml           # Configuration file
 ├── requirements.txt      # Python dependencies
+├── setup.py             # Package setup
 └── README.md            # This file
 ```
 

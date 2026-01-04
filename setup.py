@@ -37,7 +37,7 @@ setup(
     install_requires=requirements,
     entry_points={
         "console_scripts": [
-            "ai-interviewer=main:main",
+            "ai-interviewer=src.main:main",
         ],
     },
 )

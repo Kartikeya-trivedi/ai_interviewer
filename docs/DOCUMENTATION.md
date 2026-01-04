@@ -14,7 +14,7 @@ The AI Interviewer System is a cross-platform application designed to facilitate
    - Provides platform detection and validation
    - Generates interview summaries
 
-2. **Main Application** (`main.py`)
+2. **Main Application** (`src/main.py`)
    - Command-line interface
    - Demo mode for testing
    - Platform information display
